@@ -1,0 +1,40 @@
+ul {
+    list-style: none;
+    padding: 0;
+}
+
+li {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: #fafafa;
+    padding: 10px;
+    margin-top: 10px;
+    border-radius: 4px;
+    transition: background-color 0.3s;
+}
+
+li:hover {
+    background-color: #f0f0f0;
+}
+
+button {
+    background-color: #e74c3c;
+    border-radius: 4px;
+    font-size: 14px;
+}
+
+button:hover {
+    background-color: #c0392b;
+}
+
+span {
+    flex-grow: 1;
+    cursor: pointer;
+    color: black;
+}
+
+span.completed {
+    text-decoration: line-through;
+    color: #7f8c8d;
+}

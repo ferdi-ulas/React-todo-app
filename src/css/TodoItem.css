@@ -1,0 +1,16 @@
+/* TodoItem.css */
+.completed {
+    text-decoration: line-through;
+}
+
+.delete-button {
+    background: red;
+    color: white;
+    border: none;
+    padding: 5px 10px;
+    cursor: pointer;
+}
+
+.delete-button:hover {
+    background: darkred;
+}
