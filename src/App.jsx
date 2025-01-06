@@ -7,7 +7,7 @@ function App() {
   const [todos, setTodos] = useState([]);
   const [newTodo, setNewTodo] = useState("");
 
-  // Todo ekleme fonksiyonu
+
   const addTodo = () => {
     if (newTodo.trim() === "") {
       alert("Lütfen Bir Todo Giriniz!")
@@ -17,7 +17,7 @@ function App() {
       ...todos,
       { id: Date.now(), text: newTodo, completed: false }
     ]);
-    setNewTodo(""); // Input alanını temizle
+    setNewTodo("");
   };
 
   const handleKeyDown = (event) => {
@@ -26,7 +26,7 @@ function App() {
     }
   }
 
-  // Todo tamamla fonksiyonu
+
   const toggleTodo = (id) => {
     setTodos(
       todos.map((todo) =>
@@ -35,7 +35,7 @@ function App() {
     );
   };
 
-  // Todo silme fonksiyonu
+
   const deleteTodo = (id) => {
     setTodos(todos.filter((todo) => todo.id !== id));
   };
