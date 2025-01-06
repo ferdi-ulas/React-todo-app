@@ -30,9 +30,10 @@ You can test the application live here:
 
 ---
 
-## 📺 Watch the App in Action
+## 📺 Watch the Video
 For a detailed explanation and walkthrough, watch the video on YouTube:  
-[Watch on YouTube]([https://www.youtube.com/watch?v=Gjuqhh-VdFA&t=146s](https://react-todo-app-two-ivory.vercel.app/))
+[Watch on YouTube](https://react-todo-app-two-ivory.vercel.app/)
+
 
 
 
