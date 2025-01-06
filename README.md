@@ -32,7 +32,7 @@ You can test the application live here:
 
 ## 📺 Watch the Video
 For a detailed explanation and walkthrough, watch the video on YouTube:  
-[Watch on YouTube](https://react-todo-app-two-ivory.vercel.app/)
+[Watch on YouTube](https://youtu.be/4KU6Sva0ISM?si=1XKuQiN5qDVajxLM)
 
 
 
